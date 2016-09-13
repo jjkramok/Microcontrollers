@@ -10,7 +10,7 @@ int main(void) {
 	
 	while (1) {
 		int num;
-		for (num = 0; num < 0xFF; num++) {
+		for (num = 0; num < 0xFF; num++) { //count from 0 to 255
 			
 			PORTB = 0x00; //Clear all bits so we can begin with the next number
 			int i;

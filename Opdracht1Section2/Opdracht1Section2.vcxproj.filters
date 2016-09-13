@@ -17,5 +17,9 @@
   <ItemGroup>
     <None Include="Opdracht1Section2.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.Opdracht1Section2.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

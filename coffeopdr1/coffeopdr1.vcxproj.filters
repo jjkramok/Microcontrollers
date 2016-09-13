@@ -17,4 +17,9 @@
   <ItemGroup>
     <None Include="coffeopdr1.ino" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.coffeopdr1.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

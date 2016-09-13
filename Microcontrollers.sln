@@ -7,6 +7,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Microcontrollers", "Microco
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coffeopdr1", "coffeopdr1\coffeopdr1.vcxproj", "{1EECAD97-F557-49BE-801F-F675DF760B19}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Opdracht1", "Opdracht1\Opdracht1.vcxproj", "{BF214F18-48C9-4BB1-8814-164BE935151E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Opdracht1Section2", "Opdracht1Section2\Opdracht1Section2.vcxproj", "{B31CAC6B-35B7-4095-B636-4B90F2C6653F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Opdracht1Section3", "Opdracht1Section3\Opdracht1Section3.vcxproj", "{8818335E-9B09-4A77-952B-2FEA8BC4489A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Opdracht1Section4", "..\Opdracht1Section4\Opdracht1Section4.vcxproj", "{A9C6B896-5EC1-4CB5-9164-7105A4191BFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Opdracht1Section5", "Opdracht1Section5\Opdracht1Section5.vcxproj", "{B67536B1-63BA-4B82-AAF0-D93CFFB0E12F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,6 +31,26 @@ Global
 		{1EECAD97-F557-49BE-801F-F675DF760B19}.Debug|x86.Build.0 = Debug|Win32
 		{1EECAD97-F557-49BE-801F-F675DF760B19}.Release|x86.ActiveCfg = Release|Win32
 		{1EECAD97-F557-49BE-801F-F675DF760B19}.Release|x86.Build.0 = Release|Win32
+		{BF214F18-48C9-4BB1-8814-164BE935151E}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF214F18-48C9-4BB1-8814-164BE935151E}.Debug|x86.Build.0 = Debug|Win32
+		{BF214F18-48C9-4BB1-8814-164BE935151E}.Release|x86.ActiveCfg = Release|Win32
+		{BF214F18-48C9-4BB1-8814-164BE935151E}.Release|x86.Build.0 = Release|Win32
+		{B31CAC6B-35B7-4095-B636-4B90F2C6653F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B31CAC6B-35B7-4095-B636-4B90F2C6653F}.Debug|x86.Build.0 = Debug|Win32
+		{B31CAC6B-35B7-4095-B636-4B90F2C6653F}.Release|x86.ActiveCfg = Release|Win32
+		{B31CAC6B-35B7-4095-B636-4B90F2C6653F}.Release|x86.Build.0 = Release|Win32
+		{8818335E-9B09-4A77-952B-2FEA8BC4489A}.Debug|x86.ActiveCfg = Debug|Win32
+		{8818335E-9B09-4A77-952B-2FEA8BC4489A}.Debug|x86.Build.0 = Debug|Win32
+		{8818335E-9B09-4A77-952B-2FEA8BC4489A}.Release|x86.ActiveCfg = Release|Win32
+		{8818335E-9B09-4A77-952B-2FEA8BC4489A}.Release|x86.Build.0 = Release|Win32
+		{A9C6B896-5EC1-4CB5-9164-7105A4191BFF}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9C6B896-5EC1-4CB5-9164-7105A4191BFF}.Debug|x86.Build.0 = Debug|Win32
+		{A9C6B896-5EC1-4CB5-9164-7105A4191BFF}.Release|x86.ActiveCfg = Release|Win32
+		{A9C6B896-5EC1-4CB5-9164-7105A4191BFF}.Release|x86.Build.0 = Release|Win32
+		{B67536B1-63BA-4B82-AAF0-D93CFFB0E12F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B67536B1-63BA-4B82-AAF0-D93CFFB0E12F}.Debug|x86.Build.0 = Debug|Win32
+		{B67536B1-63BA-4B82-AAF0-D93CFFB0E12F}.Release|x86.ActiveCfg = Release|Win32
+		{B67536B1-63BA-4B82-AAF0-D93CFFB0E12F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
