@@ -14,22 +14,47 @@ int main(void) {
 	PORTD = 0b0000100;
 	while (1) {
 		
-		if (PINB & (1 << PORTB2)) {
-			PORTB ^= (1 << PB5);
-			_delay_ms(1000);
-		}
-		
+		/* Button
+		if (!(PINB & (1 << PORTB2))) {
+				PORTB |= (1 << PB5);
+				_delay_ms(250); //Sofware matig ontdenderen
+				while ((PINB & (1 << PORTB2))) {
+					_delay_ms(50);
+				}
+			}
+			PORTB &= ~(1 << PB5);
+		*/
 
-		/* Knight rider sequence
+		//Knight rider sequence
 		for (i = 1; i < NO_OF_LEDS; i++) {
+			
+			if (!(PINB & (1 << PORTB2))) {
+				PORTB |= (1 << PB5);
+				_delay_ms(250); //Sofware matig ontdenderen
+				while ((PINB & (1 << PORTB2))) {
+					_delay_ms(50);
+				}
+			}
+			PORTB &= ~(1 << PB5);
+
 			_delay_ms(DELAY);
 			PORTD = (PORTD << 1);
 		}
 		for (i = 1; i < NO_OF_LEDS; i++) {
+
+			if (!(PINB & (1 << PORTB2))) {
+				PORTB |= (1 << PB5);
+				_delay_ms(250); //Software matig ontdenderen
+				while ((PINB & (1 << PORTB2))) {
+					_delay_ms(50);
+				}
+			}
+			PORTB &= ~(1 << PB5);
+
 			_delay_ms(DELAY);
 			PORTD = (PORTD >> 1);
 		}
-		*/
+		
 	}
 }
 
